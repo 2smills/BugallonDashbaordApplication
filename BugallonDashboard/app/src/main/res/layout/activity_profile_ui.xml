@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_person" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFullName"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:background="#b0bfd4"
+        android:textColorHint="#000000"
+        android:visibility="visible"
+        android:hint="Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b0bfd4"
+            android:backgroundTintMode="src_in"
+            android:bufferType="normal"
+            android:text="FullNameUser"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textEmail"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:background="#b0bfd4"
+        android:textColorHint="#000000"
+        android:visibility="visible"
+        android:hint="Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b0bfd4"
+            android:backgroundTintMode="src_in"
+            android:bufferType="normal"
+            android:text="EmailUser"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textContact"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:background="#b0bfd4"
+        android:textColorHint="#000000"
+        android:visibility="visible"
+        android:hint="Contact">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b0bfd4"
+            android:backgroundTintMode="src_in"
+            android:bufferType="normal"
+            android:text="ContactUser"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textAddress"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:background="#b0bfd4"
+        android:textColorHint="#000000"
+        android:visibility="visible"
+        android:hint="Address">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#b0bfd4"
+            android:backgroundTintMode="src_in"
+            android:bufferType="normal"
+            android:text="AddressUser"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
